@@ -151,3 +151,7 @@ tf.range(limit)
 even_tensor = tf.range(start = 2, limit = 21, delta = 2)
 odd_tensor = tf.range(start = 1, limit = 20, delta = 2)
 even_tensor, odd_tensor
+
+#vector tensor with reverse numbers
+reverse_tensor = tf.range(start = 20, limit = 0, delta =-1)
+reverse_tensor
