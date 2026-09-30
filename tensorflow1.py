@@ -138,3 +138,7 @@ matrix[:, :2] #fetch first 2 elements from all rows
 
 #create a tensor with a sequence of numbers using tf.range()
 #syntax-:  tf.range(start, limit, delta = 1, dtype = None, name = 'range)
+
+#create a sequence of numbers -> vector tensor using tf.range()
+vec_tensor = tf.range(start = 1, limit = 10)
+vec_tensor
