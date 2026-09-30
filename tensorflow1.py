@@ -142,3 +142,12 @@ matrix[:, :2] #fetch first 2 elements from all rows
 #create a sequence of numbers -> vector tensor using tf.range()
 vec_tensor = tf.range(start = 1, limit = 10)
 vec_tensor
+
+#create a vector tensor using tf.range() without giving 'start' input
+limit = 10
+tf.range(limit)
+
+#vector tensor with even and odd values
+even_tensor = tf.range(start = 2, limit = 21, delta = 2)
+odd_tensor = tf.range(start = 1, limit = 20, delta = 2)
+even_tensor, odd_tensor
