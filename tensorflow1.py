@@ -135,4 +135,3 @@ matrix = tf.constant([[1,2,3], [4,5,6], [7,8,9]])
 matrix[0, :] #all elements from row 0
 
 matrix[:, :2] #fetch first 2 elements from all rows
-
