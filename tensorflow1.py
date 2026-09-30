@@ -135,3 +135,6 @@ matrix = tf.constant([[1,2,3], [4,5,6], [7,8,9]])
 matrix[0, :] #all elements from row 0
 
 matrix[:, :2] #fetch first 2 elements from all rows
+
+#create a tensor with a sequence of numbers using tf.range()
+#syntax-:  tf.range(start, limit, delta = 1, dtype = None, name = 'range)
