@@ -105,3 +105,18 @@ dot_product = tf.reduce_sum(tf.multiply(x, y))
 dot_product
 
 tf.tensordot(x, y, axes = 1)
+
+#matrix multiplication
+m1 = tf.constant([[1,2,3], [4,5,6]])
+m2 = tf.constant([[7,8], [9,10], [11,12]])
+m3 = tf.constant([[10,20,30], [40,56, 80]])
+m1, m2, m3
+
+matmull_2 = tf.matmul(m1, m2)
+matmull_2
+
+m1 * m3
+
+#element-wise multiplication
+m1 * m1
+
