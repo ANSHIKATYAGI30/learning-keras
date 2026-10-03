@@ -120,3 +120,20 @@ m1 * m3
 #element-wise multiplication
 m1 * m1
 
+matmull_3 = tf.matmul(m2, m3)
+print(matmull_3)
+
+m1.shape, m2.shape, m3.shape
+
+m3_reshaped = tf.reshape(m3, shape=(3,2))
+m3_reshaped
+tf.matmul(m1, m3_reshaped)
+
+m3_transpose = tf.transpose(m3)
+m3_transpose
+
+zeros = tf.zeros(shape = (5,5))
+zeros
+
+#create a zero tensor with same shape as m1
+tf.zeros_like(m1)
