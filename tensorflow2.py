@@ -152,3 +152,15 @@ identity
 #       [0., 0., 1., 0., 0.],
 #       [0., 0., 0., 1., 0.],
 #       [0., 0., 0., 0., 1.]], dtype=float32)>
+
+m1 = [[3,6,9], [7,7,7]]
+m2 = [[4,5,6], [5,5,5]]
+m1, m2
+
+tf.concat([m1, m2], axis = 0)
+tf.concat([m1, m2], axis = 1)
+
+#stack two matrix tensors row-wise
+tf.stack([m1,m2], axis = 0)
+
+tf.stack([m1, m2], axis = 1)
