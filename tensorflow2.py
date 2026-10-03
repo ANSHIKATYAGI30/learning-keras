@@ -88,3 +88,20 @@ sum
 sum_0 = tf.reduce_sum(matrix, axis = 0)
 sum_1 = tf.reduce_sum(matrix, axis = 1)
 sum_0, sum_1
+
+mean = tf.reduce_mean(matrix)
+mean
+
+mean_0 = tf.reduce_mean(matrix, axis = 0)
+mean_1 = tf.reduce_mean(matrix, axis = 1)
+mean_0.numpy(), mean_1.numpy()
+
+import tensorflow_probability as tfp
+
+variance = tfp.stats.variance(tensor)
+variance
+
+dot_product = tf.reduce_sum(tf.multiply(x, y))
+dot_product
+
+tf.tensordot(x, y, axes = 1)
