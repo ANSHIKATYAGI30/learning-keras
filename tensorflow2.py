@@ -8,3 +8,7 @@ tensor_int, tensor_int.dtype
 
 #type cast the tensor from int to float
 tf.cast(tensor_int, dtype = tf.float32)
+
+tf.cast(tensor_float, dtype = tf.int32)
+
+tf.cast(tensor_float, dtype = tf.float16)
