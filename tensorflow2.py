@@ -137,3 +137,18 @@ zeros
 
 #create a zero tensor with same shape as m1
 tf.zeros_like(m1)
+
+ones = tf.ones(shape = (5,5))
+ones
+
+tf.ones_like(m1)
+
+#create an identity matrix tensor 
+identity = tf.eye(5)
+identity
+#<tf.Tensor: shape=(5, 5), dtype=float32, numpy=
+#array([[1., 0., 0., 0., 0.],
+#       [0., 1., 0., 0., 0.],
+#       [0., 0., 1., 0., 0.],
+#       [0., 0., 0., 1., 0.],
+#       [0., 0., 0., 0., 1.]], dtype=float32)>
