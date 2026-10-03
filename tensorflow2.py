@@ -63,3 +63,28 @@ x ** 3
 
 sq_diff = tf.math.squared_difference(x,y)
 sq_diff
+
+tensor = tf.constant([30, 10, 70, 25, 15, 5])
+tensor
+
+min_ele_index = tf.argmin(tensor)
+max_ele_index = tf.argmax(tensor)
+min_ele_index, max_ele_index
+
+tensor[min_ele_index].numpy(), tensor[max_ele_index].numpy()
+
+min = tf.reduce_min(tensor)
+min
+
+max = tf.reduce_max(tensor)
+max
+
+matrix = tf.constant([[10,20,30], [40,50,60]])
+matrix
+
+sum = tf.reduce_sum(matrix)
+sum
+
+sum_0 = tf.reduce_sum(matrix, axis = 0)
+sum_1 = tf.reduce_sum(matrix, axis = 1)
+sum_0, sum_1
