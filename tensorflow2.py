@@ -36,3 +36,20 @@ x - y
 
 sub = tf.subtract(x, y)
 sub
+
+x * 10
+
+x * y
+
+mul = tf.multiply(x, y)
+mul
+
+x / 10
+
+y / x
+
+div = tf.divide(x, y)
+div
+
+square = tf.square(x)
+square
