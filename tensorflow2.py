@@ -17,4 +17,22 @@ tf.cast(tensor_int, dtype= tf.int16)
 
 tf.constant(["x", "y", "z"])
 
+#addition : tf.add()
 
+x = tf.constant([10., 20., 30.])
+y = tf.constant([1., 2., 3.])
+x, y
+
+x + 10
+
+x + y
+
+add = tf.add(x,y)
+add
+
+x - 10
+
+x - y
+
+sub = tf.subtract(x, y)
+sub
