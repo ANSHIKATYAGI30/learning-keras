@@ -12,3 +12,9 @@ tf.cast(tensor_int, dtype = tf.float32)
 tf.cast(tensor_float, dtype = tf.int32)
 
 tf.cast(tensor_float, dtype = tf.float16)
+
+tf.cast(tensor_int, dtype= tf.int16)
+
+tf.constant(["x", "y", "z"])
+
+
