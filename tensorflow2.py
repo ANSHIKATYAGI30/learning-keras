@@ -53,3 +53,13 @@ div
 
 square = tf.square(x)
 square
+
+x*x
+
+power = tf.pow(x, 3)
+power
+
+x ** 3
+
+sq_diff = tf.math.squared_difference(x,y)
+sq_diff
